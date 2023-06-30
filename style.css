@@ -1,4 +1,6 @@
-
+* {
+    font-family: "Arial", "Verdana", sans-serif;;
+}
 
 body {
     background-color: grey;
@@ -6,4 +8,16 @@ body {
 
 .Header {
     background-color: black;
+    padding: 40px;
+    text-align: center;
+
+}
+
+#Header-Link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 24px;
 }
