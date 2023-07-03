@@ -3,14 +3,36 @@
 }
 
 body {
-    background-color: grey;
+    background-color: darkgray;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 25px;
 }
 
 .Header {
-    background-color: black;
-    padding: 40px;
+    background-color: gray;
+    padding: 30px;
     text-align: center;
+    border: 5px solid black;
+    border-radius: 15px;
+}
 
+.Images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#babymop-pic {
+    display: inline;
+    border-radius: 15px;
+    border: 5px solid black;
+    width: auto;
+    height: 200px;
+    margin: 50px;
 }
 
 #Header-Link {
